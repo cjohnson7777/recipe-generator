@@ -1,0 +1,55 @@
+:root {
+    --rad: .7rem;
+    --dur: .3s;
+    --color-dark: #2f2f2f;
+    --color-light: #fff;
+    --color-brand: #57bd84;
+    --font-fam: 'Lato', sans-serif;
+    --height: 3rem;
+    --btn-width: 6rem;
+    --bez: cubic-bezier(0, 0, 0.43, 1.49);
+}
+    
+.typebar{
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 10px;
+    margin: 100px 0px 0px 50px;
+}
+    
+      
+.form{
+    position: relative;
+    width: 30rem;
+}
+    
+input, button {
+    height: var(--height);
+    font-family: var(--font-fam);
+    border: 2;
+    color: var(--color-dark);
+    font-size: 1.8rem;
+}
+    
+input[type="text"] {
+    outline: 0;
+    background: var(--color-light);
+    padding: 0 1.6rem;
+    border-radius: var(--rad);
+    appearance: none;
+    transition: all var(--dur) var(--bez);
+    transition-property: width, border-radius;
+    z-index: 1;
+    position: relative;
+    height: 43px;
+ }
+    
+button {
+    width: var(--btn-width);
+    font-weight: bold;
+    background: var(--color-light);
+    border-radius: var(--rad);
+}
+    
+    
+    
