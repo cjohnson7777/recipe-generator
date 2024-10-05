@@ -1,0 +1,16 @@
+.dietmenu{
+    display: flex;
+    border: black 1px solid;
+    flex-direction: column;
+}
+
+.dietform{
+    display: flex;
+    flex-direction: column;
+}
+
+.dietbutton{
+    font-size: 15px;
+    font-weight: 400;
+    height: 25px;
+}
